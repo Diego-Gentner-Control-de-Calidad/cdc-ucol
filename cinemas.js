@@ -14,4 +14,8 @@ function registrarVenta(arrayDeProductos) {
 
 export default registrarVenta;
 
-console.log(registrarVenta([{nombre: "Hokla", costo: 50}, {nombre: "Refresco", costo: 30}, {nombre: "Nachos", costo: 60}]));
+console.log(registrarVenta([
+    {nombre: "Hola", costo: 50},
+    {nombre: "Refresco", costo: 30},
+    {nombre: "Nachos", costo: 60}
+]));
